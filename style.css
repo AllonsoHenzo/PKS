@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.cabecote{
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pkslogo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    margin: 0 600px 0 600px;
+    background-color: rgb(178, 2, 178);
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 0 0px 24px 24px;
+    text-transform: capitalize;
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+}
