@@ -16,11 +16,15 @@ html, body{
     align-items: center;
     position: relative;
     border: 0px 0px 200px 0px solid #fff;
+    
 }
 
-#pkslogo{
-    display: flex;
-    justify-content: center;
+
+.pkslogo{
+    left: 5px;
+    position: relative;
+
+    
     
 }
 
@@ -183,7 +187,7 @@ nav ul a {
 .textboxleft{
     background-color: #2d2546;
     height: 50%;
-    width: 50%;
+    width: 62%;
     position: absolute;
     top: 150px;
     margin-left: 2%;
@@ -207,7 +211,7 @@ nav ul a {
     display: flex;
     top: 200px;
     height: 50%;
-    width: 45%;
+    width: 35%;
     left: 42px;
     color: #eee;
     font-size: 1.4rem;
@@ -216,4 +220,150 @@ nav ul a {
     font-weight: 700;
     text-align: justify;
     line-height: 1.7;
+}
+
+.gente{
+    width: 17%;
+    position: absolute;
+    top: 170px;
+    left: 44%;
+    border-radius: 25px;
+    height: 45%;
+}
+
+.saiba{
+    position: absolute;
+    background-color: rgb(225, 105, 14);
+    top: 420px;
+    left: 20%;
+    border-color: rgb(225, 105, 14);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+
+}
+
+.saiba:hover{
+    background-image:linear-gradient(to bottom,orange, rgb(255, 112, 3), rgb(230, 58, 1)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin-top: 35px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.textboxright{
+        background-color: #2d2546;
+        height: 88%;
+        width: 32%;
+        position: absolute;
+        top: 90px;
+        margin-left: 67%;
+        border-radius: 25px;
+        border: solid rgba(0, 0, 0, 0.5);
+    }
+
+.textogal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 80%;
+    margin-top: 2%;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-right: 2%;
+    flex-wrap: wrap;
+    line-height: 100px;
+    
+}
+
+#sla > div{
+   float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.im1{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.im2{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.im3{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.im4{
+    width: 100%;
+    border-radius: 15%;
+    margin-top: 5%;
+}
+
+.im5{
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.im6{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+#sla .foto3:target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 33%;
+    top: 30px;
+    left: 35%;
+    padding: 5px;
+    border: solid 1px #333;
+    box-shadow: 0 0 25px 10px #000;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.foto3:target .detalhes{
+    display:block;
+    position: absolute;
+    margin-top: 115%;
+    left: 20px;
+    
+    
+    
+    
+}
+
+.detalhes{
+    display: none;
 }
